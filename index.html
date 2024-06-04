@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geografía del Ecuador</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #585858;
+        padding: 10px 0;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+      }
+      header a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+      }
+      header a:hover {
+        background-color: #2d2d2d;
+        border-radius: 15px;
+      }
+      h1 {
+        font-size: 80px;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 40px;
+        text-align: center;
+      }
+
+      img {
+        width: 20px;
+        height: auto;
+
+        border-radius: 15px;
+      }
+
+      .info {
+        margin: 20px;
+        font-size: 20px;
+        text-align: left;
+      }
+
+      .divh1 {
+        margin-top: -20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .description {
+        margin-bottom: 20px;
+        font-size: 25px;
+        width: 90%;
+        max-width: 900px;
+        text-align: justify;
+      }
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+
+        width: 1200px;
+
+        justify-content: center;
+        margin: 0 auto;
+      }
+      .flex-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-basis: 100%;
+      }
+      .flex-item img,
+      .flex-item div {
+        flex: 1;
+      }
+      .flex-item img {
+        max-width: 100%;
+        height: auto;
+      }
+      .flex-item p {
+        margin: 10px 20px;
+        text-align: left;
+      }
+      .reverse {
+        flex-direction: row-reverse;
+      }
+      ul {
+        list-style-type: disc;
+        padding-left: 40px;
+      }
+      li {
+        margin: 20px 0;
+      }
+      footer {
+        background-color: #585858;
+        padding: 10px 0;
+        color: white;
+        display: flex;
+        justify-content: center;
+      }
+      footer a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+      }
+      footer a:hover {
+        background-color: #2d2d2d;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#economica">Geografía Económica</a>
+      <a href="#humana">Geografía Humana</a>
+      <a href="#fisica">Geografía Física</a>
+      <a href="#regional">Geografía Regional</a>
+    </header>
+
+    <main>
+      <div class="divh1">
+        <h1>Geografía del Ecuador</h1>
+        <p class="description">
+          Ecuador es un país situado en la región noroeste de América del Sur,
+          limitado al norte por Colombia, al este y al sur por Perú, y al oeste
+          por el Océano Pacífico. El país se encuentra justo en la línea
+          ecuatorial, lo que influye en su clima y biodiversidad. Ecuador es
+          conocido por su diversidad geográfica que incluye cuatro regiones
+          naturales: la Costa, la Sierra, el Oriente (Amazonía) y la Región
+          Insular (Islas Galápagos).
+        </p>
+      </div>
+
+      <div class="flex-container">
+        <div id="economica" class="flex-item">
+          <img
+            src="https://fundahrse.org/wp-content/uploads/2023/01/trabajo-decente-y-crecimiento-economico-300x169.png"
+            alt="Geografía Económica"
+            style="width: 100px; height: 450px;"
+          />
+          <div>
+            <h2>Geografía Económica</h2>
+            <p class="info">
+              La economía del Ecuador se sustenta en varios sectores clave:
+              <ul>
+                <li>Agricultura: El Ecuador es un importante productor de banano,
+                  café, cacao y flores. La agricultura es una fuente vital de empleo
+                  y exportaciones. </li>
+                <li>Minería y Petróleo: La explotación de petróleo en
+                  la Amazonía y la minería (especialmente de oro y cobre) son
+                  fuentes significativas de ingresos para el país.</li>
+                <li>Turismo: Las
+                  Islas Galápagos, la Amazonía, y las ciudades coloniales como Quito
+                  y Cuenca atraen a turistas de todo el mundo. </li>
+                <li>Pesca: La pesca,
+                  especialmente de camarones y atún, es una industria importante en
+                  la región costera.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div id="humana" class="flex-item reverse">
+          <img
+            src="https://cards.algoreducation.com/_next/image?url=https%3A%2F%2Ffiles.algoreducation.com%2Fproduction-ts%2F__S3__4ffefba4-4280-429d-9478-4a2b1cbc92a7&w=3840&q=75"
+            alt="Geografía Humana"
+          />
+          <div>
+            <h2>Geografía Humana</h2>
+            <p class="info">
+              <ul>
+                <li>Población y Demografía: Ecuador tiene una población diversa compuesta por mestizos, indígenas, afroecuatorianos y otros grupos étnicos. La población se concentra en las ciudades principales como Quito (la capital) y Guayaquil (la ciudad más grande).</li>
+                <li>Cultura y Sociedad: La cultura ecuatoriana es una mezcla de tradiciones indígenas, españolas y africanas. Las fiestas tradicionales, la música, la danza y la gastronomía reflejan esta diversidad cultural.</li>
+                <li>Urbanización: Ecuador ha experimentado un proceso de urbanización acelerado, con muchas personas migrando del campo a las ciudades en busca de mejores oportunidades económicas.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div id="fisica" class="flex-item">
+          <img
+            src="https://www.camaraofespanola.org/files/Ecuador/imgGEcu2.jpg"
+            alt="Geografía Física"
+          />
+          <div>
+            <h2>Geografía Física</h2>
+            <p class="info">
+              <ul>
+                <li>Costa: La región costera se encuentra al oeste del país, limitando con el Océano Pacífico. Tiene un clima tropical y húmedo, con playas, manglares y zonas de agricultura intensiva.</li>
+                <li>Sierra: La región andina o Sierra es una cadena montañosa que atraviesa el país de norte a sur. Contiene picos volcánicos, como el Cotopaxi y el Chimborazo, y valles fértiles. El clima varía desde templado hasta frío, dependiendo de la altitud.</li>
+                <li>Amazonía: Al este del país se encuentra la región amazónica, caracterizada por una densa selva tropical, ríos caudalosos y una biodiversidad impresionante. El clima es cálido y húmedo.</li>
+                <li>Islas Galápagos: Situadas en el Océano Pacífico, estas islas volcánicas son famosas por su flora y fauna únicas, que inspiraron la teoría de la evolución de Charles Darwin. El clima es subtropical y las islas son un importante destino turístico y un área protegida.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div id="regional" class="flex-item reverse">
+          <img
+            src="https://cloud.educaplay.com/recursos/65/2081767/imagen_1_1443543331.jpg"
+            alt="Geografía Regional"
+          />
+          <div>
+            <h2>Geografía Regional</h2>
+            <p class="info">
+              <ul>
+                <li>Región Costa: Incluye provincias como Guayas, Manabí y Esmeraldas. 
+                  Es una región de gran actividad económica y cultural.</li>
+                <li>Región Sierra: Comprende provincias como Pichincha, Azuay y Loja. 
+                  Es conocida por sus paisajes montañosos y ciudades históricas.</li>
+                <li>Región Amazonía: Incluye provincias como Sucumbíos, Napo y Morona Santiago. 
+                  Es rica en recursos naturales y biodiversidad.</li>
+                <li>Región Insular: Consiste en las Islas Galápagos, que son un patrimonio natural de 
+                  la humanidad y un importante centro de investigación científica.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://www.facebook.com" target="_blank">Facebook</a>
+      <a href="https://www.twitter.com" target="_blank">Twitter</a>
+      <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    </footer>
+  </body>
+</html>
